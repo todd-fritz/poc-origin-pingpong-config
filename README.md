@@ -1,4 +1,4 @@
-# poc-origin-pingpong-eureka
+# poc-origin-pingpong-config
 
 Shamelessly borrowed from [Spring Cloud Ping-Pong Example] (https://github.com/bijukunjummen/spring-cloud-ping-pong-sample).
 
