@@ -34,8 +34,6 @@ Running it all local is simple, do the following in sequence, in four different 
 `mvn spring-boot:run`
 
 
-If all the applications have come up cleanly, the endpoint should be available at http://localhost:8080
-
 
 Creating and pushing a new release to Dockerhub:
 
