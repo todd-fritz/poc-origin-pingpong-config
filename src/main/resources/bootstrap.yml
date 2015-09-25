@@ -1,7 +1,7 @@
 ---
 spring:
   application:
-    name: sample-config
+    name: poc-config
   profiles:
     active: native
 
@@ -10,5 +10,5 @@ eureka:
     nonSecurePort: ${server.port:8888}
   client:
     serviceUrl:
-      defaultZone: http://${eureka.host:localhost}:${eureka.port:8761}/eureka/
+      defaultZone: http://${EUREKA_HOST:poc-eureka}:${EUREKA_PORT:8761}/eureka/
 
